@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f8f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #20b486, #63d471);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navbar */
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #159a72;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0b6b4f;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* Artikel */
+.article {
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.article h2 {
+    color: #159a72;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.article h3 {
+    color: #222;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.article p {
+    margin-bottom: 18px;
+    text-align: justify;
+}
+
+/* Gambar */
+.article img {
+    width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+/* Kotak Tips */
+.tips {
+    background-color: #e5f7ef;
+    border-left: 5px solid #20b486;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 8px;
+}
+
+.tips h3 {
+    color: #159a72;
+    margin-top: 0;
+}
+
+.tips ul {
+    padding-left: 25px;
+}
+
+.tips li {
+    margin: 8px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #1f2933;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    .container {
+        width: 94%;
+        margin: 25px auto;
+    }
+
+    .article {
+        padding: 22px;
+    }
+
+    .article h2 {
+        font-size: 24px;
+    }
+
+    .article p {
+        font-size: 15px;
+        text-align: left;
+    }
+}
